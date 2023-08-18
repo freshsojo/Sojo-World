@@ -9,6 +9,7 @@ export default function Home() {
   const [squareYPosition, setSquareYPosition] = useState<number>(5);
   const [sojoImage, setSojoImage] = useState<boolean>(false);
 
+  // Loading...
   useEffect(() => {
     const interval = setInterval(() => {
       setSquareXPosition(squareXPosition + 1)
